@@ -1,4 +1,4 @@
-package p617;
+package me.y2o2u2n.p617;
 
 import java.util.LinkedList;
 import java.util.Queue;
