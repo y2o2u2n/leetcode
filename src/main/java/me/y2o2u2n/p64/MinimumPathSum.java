@@ -3,7 +3,7 @@ package me.y2o2u2n.p64;
 /**
  * Created by JunSeok Youn on 2021-03-24
  */
-public class MinumumPathSum {
+public class MinimumPathSum {
 	public static void main(String[] args) {
 		System.out.println(minPathSum(new int[][] {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}));
 		System.out.println(minPathSum(new int[][] {{1, 2, 3}, {4, 5, 6}}));

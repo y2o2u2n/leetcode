@@ -3,7 +3,7 @@ package me.y2o2u2n.p945;
 /**
  * Created by JunSeok Youn on 2021-04-20
  */
-public class MinumumIncrementToMakeArrayUnique {
+public class MinimumIncrementToMakeArrayUnique {
 	public static void main(String[] args) {
 		System.out.println(minIncrementForUnique(new int[] {1, 2, 2})); // 1
 		System.out.println(minIncrementForUnique(new int[] {3, 2, 1, 2, 1, 7})); // 6
