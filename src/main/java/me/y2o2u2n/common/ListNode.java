@@ -19,4 +19,21 @@ public class ListNode {
 		this.val = val;
 		this.next = next;
 	}
+
+	public static boolean isEqual(ListNode head1, ListNode head2) {
+		ListNode current1 = head1;
+		ListNode current2 = head2;
+
+		while (current1 != null && current2 != null) {
+			if (current1.val != current2.val) {
+				return false;
+			}
+
+			current1 = current1.next;
+			current2 = current2.next;
+		}
+
+		return current1 == null && current2 == null;
+
+	}
 }
